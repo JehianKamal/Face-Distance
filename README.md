@@ -9,13 +9,13 @@
 - create -n \<nama environment\> pip python (Contoh: create -n facedistance pip python
 - aktifkan environment dengan ketik : conda activate \<nama environment\> (Contoh : conda activate facedistance) #CATATAN : anaconda selalu diaktifkan saat ingin menjalankan program. Jika sudah aktif abaikan.
 - install beberapa library dan framework berikut dan ketikan satu persatu pada command prompt:
-
-- pip install cv zone
-- pip install opencv-python
-- pip install opencv-contrib
-- pip install pygame
-- pip install tk
-
+```
+pip install cv zone
+pip install opencv-python
+pip install opencv-contrib
+pip install pygame
+pip install tk
+```
 - Download program [https://github.com/ASNProject/Face-Distance.git](https://github.com/ASNProject/Face-Distance.git) ekstrak dan simpan dalam folder bebas.
 - Buka folder program menggunakan anaconda command prompt dengan mengetikkan : cd \<Nama Folder\> (Contoh: cd Downloads/Face\_Distance)
 - Jalankan program dengan mengetik : python main.py

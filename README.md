@@ -113,6 +113,6 @@ pygame.mixer.music.play()
 
 SCREENSHOOT
 
-![image](RackMultipart20221014-1-oyj7j2_html_ef409da15c537d47.png)
+<img width="1470" alt="Screen Shot 2022-10-14 at 17 34 40" src="https://user-images.githubusercontent.com/49858542/195830710-64b1843f-405e-4756-8efb-45301d1c8c4d.png">
+<img width="1470" alt="Screen Shot 2022-10-14 at 17 34 55" src="https://user-images.githubusercontent.com/49858542/195830722-7f3909bd-41f2-4ec1-94c8-ece166515107.png">
 
-![image](RackMultipart20221014-1-oyj7j2_html_4854866a3f8981b1.png)

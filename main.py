@@ -32,13 +32,13 @@ while True:
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
 
-    cv2.putText(frame, 'Jarak = ' + str(distance) + ' Cm', (5,100), font, 1,(255,255,255),2)
+    cv2.putText(frame, 'Jarak = ' + str(distance) + ' Cm', (5,125), font, 1,(0,0,255),2)
     if distance <= distance_setpoint:
         pygame.mixer.init()
         pygame.mixer.music.load('beep.wav')
         pygame.mixer.music.play()
         cv2.putText(frame, 'PERINGATAN!', (500,40), font, 1.0, (0,191,255),2)
-        cv2.putText(frame, 'JARAK MATA ANDA TERLALU DEKAT DENGAN LAYAR MONITOR', (200,60), font, 0.8, (0,0,255),2)
+        cv2.putText(frame, 'JARAK MATA ANDA TERLALU DEKAT DENGAN LAYAR MONITOR', (200,85), font, 0.8, (0,0,255),2)
     cv2.imshow('face detection', frame)
     if cv2.waitKey(1) == ord('q'):
         break
